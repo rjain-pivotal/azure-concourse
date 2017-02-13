@@ -1,2 +1,5 @@
 *.DS_Store
 /params
+commands.txt
+
+ci/c0-azure-concourse-poc-params.yml

@@ -48,13 +48,13 @@ resources:
 - name: azure-concourse
   type: git
   source:
-    uri: https://github.com/c0-ops/azure-concourse.git
+    uri: {{gitrepo-azure}}
     branch: master
 
 - name: ert-concourse
   type: git
   source:
-    uri: https://github.com/c0-ops/ert-concourse.git
+    uri: {{gitrepo-ert}}
     branch: master
 
 - name: tool-om
